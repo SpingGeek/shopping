@@ -57,6 +57,7 @@ func (c *Service) GetUser(username string, password string) (User, error) {
 	return user, nil
 }
 
+// UpdateUser 更新用户
 func (c *Service) UpdateUser(user *User) error {
 	return c.r.Update(user)
 }
