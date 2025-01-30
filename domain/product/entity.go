@@ -4,7 +4,6 @@
 package product
 
 import (
-	"flag"
 	"shopping/domain/category"
 
 	"gorm.io/gorm"
