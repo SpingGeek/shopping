@@ -1,0 +1,11 @@
+Env: "dev"
+
+DatabaseSettings:
+  DatabaseURI: "root:wangchen0912@tcp(127.0.0.1:3306)/go_database?parseTime=True&loc=Local"
+  DatabaseName: "go_database"
+  Username: "root"
+  Password: "wangchen0912"
+
+
+JwtSettings:
+  SecretKey: "duoke360.com"
